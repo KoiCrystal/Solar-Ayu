@@ -1,0 +1,37 @@
+{
+  "name": "Solar-Ayu",
+  "author": "KoiCrystal",
+  "dark": false,
+  "editorScheme": "/colors/SolarAyu.xml",
+  "colors": {
+    "yellow": "#b58900",
+    "orange": "#cb4b16",
+    "red": "#dc322f",
+    "magenta": "#d33682",
+    "violet": "#6c71c4",
+    "blue": "#268bd2",
+    "cyan": "#2aa198",
+    "green": "#859900",
+    "primaryRed": "#dc322f"
+  },
+  "ui": {
+    "*": {
+      "background": "#fdf6e3"
+    },
+    "SidePanel": {
+      "background": "#EEE8D5"
+    },
+    "EditorTabs": {
+      "hoverInactiveBackground": "#586E75",
+      "underlinedTabBackground": "#FDF6E3",
+      "inactiveColoredFileBackground": "#586E75",
+      "underlineColor": "#1AEBFF",
+      "underlineHeight": 4
+    },
+    "Editor": {
+      "background": "#1f1f1f",
+      "foreground": "#CCCCCC",
+      "shortcutForeground": "#D2F53C"
+    }
+  }
+}
