@@ -1,7 +1,101 @@
- <scheme name="SolarAyu" version="1" parent_scheme="Default">
-   <colors>
-     <option name="CARET_ROW_COLOR" value="eee8d5" />
-     <option name="TEXT" value="657b83" />
-     <option name="BACKGROUND" value="fdf6e3" />
-   </colors>
- </scheme>
+<scheme name="SolarAyu" version="1" parent_scheme="Default">
+
+    <option name="DEFAULT_EDITOR_FONT" value="JetBrains Mono" />
+    <option name="FONT_SIZE" value="14" />
+
+    <colors>
+        <option name="CARET_ROW_COLOR" value="EEE8D5"/>
+        <option name="TEXT" value="657B83"/>
+        <option name="BACKGROUND" value="FDF6E3"/>
+        <option name="LINE_NUMBERS_COLOR" value="23789399"/>
+    </colors>
+
+
+    <attributes>
+        <option name="DEFAULT_NUMBER">
+            <value>
+                <option name="FOREGROUND" value="A37ACC"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+
+        <option name="DEFAULT_STRING">
+            <value>
+                <option name="FOREGROUND" value="86B300"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+
+        <option name="DEFAULT_LINE_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="787b8099"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+
+        <option name="DEFAULT_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="FA8D3E"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+
+        <option name="DEFAULT_FUNCTION_DECLARATION">
+            <value>
+                <option name="FOREGROUND" value="F2AE49"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+
+        <option name="DEFAULT_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="399EE6"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+
+        <option name="DEFAULT_OPERATION_SIGN">
+            <value>
+                <option name="FOREGROUND" value="5C6166" />
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_SEMICOLON">
+            <value>
+                <option name="FOREGROUND" value="5C6166"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_COMMA">
+            <value>
+                <option name="FOREGROUND" value="5C6166"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_DOT">
+            <value>
+                <option name="FOREGROUND" value="5C6166"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_BRACKETS">
+            <value>
+                <option name="FOREGROUND" value="5C6166"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_BRACES">
+            <value>
+                <option name="FOREGROUND" value="5C6166"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_PARENTHS">
+            <value>
+                <option name="FOREGROUND" value="5C6166"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+
+    </attributes>
+</scheme>
