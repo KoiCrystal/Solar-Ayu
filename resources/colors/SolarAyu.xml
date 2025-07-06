@@ -1,17 +1,19 @@
 <scheme name="SolarAyu" version="1" parent_scheme="Default">
 
-    <option name="DEFAULT_EDITOR_FONT" value="JetBrains Mono" />
-    <option name="FONT_SIZE" value="14" />
-
     <colors>
         <option name="CARET_ROW_COLOR" value="EEE8D5"/>
-        <option name="TEXT" value="657B83"/>
         <option name="BACKGROUND" value="FDF6E3"/>
         <option name="LINE_NUMBERS_COLOR" value="23789399"/>
     </colors>
 
-
     <attributes>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="5C6166"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+
         <option name="DEFAULT_NUMBER">
             <value>
                 <option name="FOREGROUND" value="A37ACC"/>
@@ -35,14 +37,28 @@
 
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="FA8D3E"/>
+                <option name="FOREGROUND" value="FB8403"/>
+                <!--                <option name="FOREGROUND" value="FA8D3E"/> original Ayu-->
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
 
-        <option name="DEFAULT_FUNCTION_DECLARATION">
+        <option name="DEFAULT_FUNCTION_DECLARATION">        <!-- Language Defaults - Identifiers - Function declaration -->
             <value>
                 <option name="FOREGROUND" value="F2AE49"/>
+                <!--                <option name="FOREGROUND" value="F2AE49"/> original Ayu -->
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_FUNCTION_CALL">       <!-- Language Defaults - Identifiers - Function call -->
+            <value>
+                <option name="FOREGROUND" value="F2AE49"/>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_CONSTANT">       <!-- Language Defaults - Identifiers - Constant -->
+            <value>
+                <option name="FOREGROUND" value="660E7A"/>
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
@@ -54,9 +70,22 @@
             </value>
         </option>
 
+
+        <option name="WRONG_REFERENCES_ATTRIBUTES">   <!-- use undifined variance-->
+            <value>
+                <option name="EFFECT_COLOR" value="F07171" />
+                <option name="EFFECT_TYPE" value="2" />
+                <option name="FOREGROUND" value="F07171" />    <!-- text color -->
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+
+
+
+
         <option name="DEFAULT_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="5C6166" />
+                <option name="FOREGROUND" value="5C6166"/>
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
@@ -96,6 +125,25 @@
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
+
+
+
+        <!--          PYTHON          -->
+        <option name="PY.PREDEFINED_DEFINITION">    <!-- PYTHON - SPECIAL NAMES - DEFINITION -->
+            <value>
+                <option name="FOREGROUND" value="219EBC" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="PY.PREDEFINED_USAGE">    <!-- PYTHON - SPECIAL NAMES - USAGE -->
+            <value>
+                <option name="FOREGROUND" value="219EBC" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+
+
+
 
     </attributes>
 </scheme>

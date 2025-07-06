@@ -6,19 +6,19 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Solar-Ayu</name>
+    <name>Solar Ayu</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <!--    <vendor url="https://www.yourcompany.com">KoiCrystal</vendor>-->
+    <vendor>KoiCrystal</vendor>
 
-    <idea-version since-build="251"/>
+    <idea-version since-build="231"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Enter short description for your theme here.<br>
-    <em>most HTML tags may be used</em>
+    This is a theme comes from Solorized and Ayu.<br>
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
