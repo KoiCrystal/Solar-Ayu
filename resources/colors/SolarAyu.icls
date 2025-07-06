@@ -1,7 +1,0 @@
- <scheme name="SolarAyu" version="1" parent_scheme="Light">
-   <colors>
-     <option name="CARET_ROW_COLOR" value="eee8d5" />
-     <option name="TEXT" value="657b83" />
-     <option name="BACKGROUND" value="fdf6e3" />
-   </colors>
- </scheme>
